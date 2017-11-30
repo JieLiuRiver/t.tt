@@ -12,7 +12,6 @@ export default {
   name: 'app',
   data() {
     return {
-      headerNecessary: true
     }
   },
   created() {
