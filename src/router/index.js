@@ -7,17 +7,24 @@ export default new Router({
   routes: [
     {
       path: '/',
-      redirect: {name: 'register'}
+      redirect: {name: 'home'}
     },
     {
       path: '/index',
       name: 'index',
-      component: resolve => require(['@/views/index'], resolve)
-    },
-    {
-      path: '/category',
-      name: 'category',
-      component: resolve => require(['@/views/category'], resolve)
+      component: resolve => require(['@/views/index'], resolve),
+      children: [
+        {
+          path: 'home',
+          name: 'home',
+          component: resolve => require(['@/views/home'], resolve),
+        },
+        {
+          path: 'category',
+          name: 'category',
+          component: resolve => require(['@/views/category'], resolve)
+        }
+      ]
     },
     {
       path: '/shopcar',

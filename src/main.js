@@ -5,6 +5,9 @@ import router from './router'
 import '@/style/reset.css';
 import '@/style/ionicons.min.css';
 import '@/style/func.less';
+import lazyload from 'vue-lazy-load'
+
+Vue.use(lazyload)
 
 Vue.config.productionTip = false
 

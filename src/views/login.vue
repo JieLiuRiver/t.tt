@@ -157,7 +157,11 @@
             loginAction() {
                 this.verifyParams()
                     .then(() => {
-                        alert('登录成功')
+                        window.localstorage.setItem('LOGININFO', encodeURIComponent(JOSN.stringify({
+                            status: true,
+                            account: this.form.account,
+                            password: this.form.password
+                        })))
                     }).catch(index => {
                         this.warnText = this.form.warnArr[index]
                         this.isNeedWarnTip = true

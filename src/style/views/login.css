@@ -8,6 +8,7 @@
   align-items: center;
 }
 .login-container .form-box .form-item {
+  overflow: hidden;
   height: 45px;
   border-radius: 6px 6px 0 0;
   background-color: #fff;

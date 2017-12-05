@@ -20,10 +20,10 @@
   justify-content: center;
   align-items: center;
 }
-.b-n-item .router-link-active {
+.b-n-item .router-link-exact-active {
   background: linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.05));
 }
-.b-n-item .router-link-active .b-n-title {
+.b-n-item .router-link-exact-active .b-n-title {
   color: #666666;
 }
 .b-n-link {

@@ -33,7 +33,7 @@
   z-index: 10;
 }
 .nav-drawer {
-  z-index: 5;
+  z-index: 15;
   width: 100%;
   background: currentColor;
   position: fixed;

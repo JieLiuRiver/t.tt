@@ -3,7 +3,7 @@
         <ul class="b-n-list">
             <li class="b-n-item" v-for="(o, i) in bottomTabLists">
                 <router-link class="f-ib f-wf b-n-link f-pr" :to="o.route">
-                    <img class="b-n-icon f-pa f-ib" :src="o.base64" alt="图标"/>
+                    <img class="b-n-icon f-pa f-ib" :src="`${$route.path === o.route ? o.selectedBase64 : o.base64}`" alt="图标"/>
                     <h4 class="b-n-title">{{o.name}}</h4>
                 </router-link>
             </li>
@@ -18,6 +18,8 @@
             return {
                 bottomTabLists: Bus.bottomTabLists
             }
+        },
+        mounted() {
         }
     }
 </script>

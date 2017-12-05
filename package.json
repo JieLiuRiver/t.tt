@@ -22,7 +22,8 @@
     "n-zepto": "^1.2.0",
     "underscore": "^1.8.3",
     "vue": "^2.5.2",
-    "vue-awesome-swiper": "^2.6.2",
+    "vue-awesome-swiper": "^3.0.2",
+    "vue-lazy-load": "^0.0.7",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {

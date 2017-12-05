@@ -23,7 +23,7 @@
 
 <script>
     import Bus from '@/bus'
-    const NAVHEIGHT = 52, BARHEIGHT = 93;
+    const NAVHEIGHT = Bus.headerHeight, BARHEIGHT = 93;
     export default {
         data() {
             return {

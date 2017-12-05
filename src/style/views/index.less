@@ -1,6 +1,195 @@
 @import '../index.less';
 
-.hello{
-    .singleValue(16);
-    font-size: @singleValue;
+.app-container{
+    padding-bottom: .5rem;
+    .section-floor{
+        position: relative;
+        box-shadow: 0 5px 13px rgba(0,0,0,.18);
+        margin-bottom: 8px;
+        background: #fff;
+        .banner-container{
+            height: 1.45rem;
+            margin: 0.18rem 0.14rem;
+            border-radius: 0.1rem;
+        }
+        .swiper-link{
+            height: 1.45rem;
+        }
+    }
+    .layout-banner{
+        overflow: hidden;
+    }
+    .swiper-pagination{
+        height: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .short-cut-container{
+        margin: 0.2rem 0.14rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .short-cut-link{
+        height: 0.52rem;
+        img{
+            width: 0.25rem;
+            height: 0.25rem;
+        }
+        p{
+            margin-top: 0.1rem;
+        }
+    }
+    .hot-swiper-item{
+        border-radius: 0.10rem;
+        // width: 1.25rem !important;
+        &:last-child{
+            padding-right: 0;
+        }
+    }
+    .hot-product-item{
+        .link{
+            height: 1.25rem;
+            &:before{
+                border-radius: 0.1rem;
+            }
+            img{
+                border-radius: 0.04rem;
+                left:0;
+                top: 0;
+            }
+        }
+    }
+    .item-content{
+        padding: .10rem .14rem;
+    }
+    .title{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        margin: 0;
+        font-size: .12rem;
+        color: #333;
+        font-weight: 700;
+    }
+    .desc{
+        text-align: left;
+        margin-top: 0.05rem;
+        color: #7f7f7f;
+    }
+    .price{
+        margin-top: .05rem;
+        color: #d44d44;
+        white-space: nowrap;
+        font-weight: 700 !important;
+        font-size: .12rem;
+        .symbol{
+            -webkit-transform: scale(.83333);
+            transform: scale(.83333);
+            -webkit-transform-origin: bottom right;
+            transform-origin: bottom right;
+            padding-right: 0.04rem;
+        }
+        .origin-price{
+            color: #7f7f7f;
+            font-size: 0.05rem;
+            .symbol{
+                padding-right: 0;
+            }
+            span{
+                -webkit-transform: scale(.83333);
+                transform: scale(.83333);
+            }
+        }
+    }
+    .hotsale-swiper-box{
+        padding: 0.16rem 0;
+        margin-bottom: 0.1rem;
+        .hotsale-swiper-item{
+            padding: 0 0.1rem;
+            width: 3.5rem;
+            .hotsale-swiper-link{
+                width: 100%;
+                height: 3.69rem;
+            }
+            .item-content{
+                padding: 0;
+                margin-bottom: 10px;
+                .title, desc, price{
+                    padding: 4px 0;
+                }
+            }
+        }
+        .hotsale-swiper-pagination{
+            height: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .carouse-swiper-box{
+        margin-top: 10px;
+        .carouse-swiper-item{
+            margin-bottom: 30px;
+        }
+        .carouse-swiper-link{
+            left: 50%;
+            position: relative;
+            transform: translate3d(-50%, 0, 0);
+            width: 2.08rem;
+            height: 2.08rem;
+        }
+        .carouse-swiper-pagination{
+            height: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .goods-list{
+        .goods-item{
+            width: 50%;
+            height:0.625rem;
+            .goods-image{
+                width: 0.375rem;
+                height: 0.375rem;
+                margin: 0 0.1rem;
+            }
+            i{
+                padding: 0 0.1rem;
+            }
+        }
+    }
+    .careful-chose-wrap{
+        padding: 0.2rem 0.14rem;
+        .careful-chose-list{
+            .careful-chose-item{
+                width: 50%;
+                .link{
+                    padding-top: 100%;
+                    border-radius: 0.1rem;
+                    img{
+                        left:0;
+                        top:0;
+                        border-radius: 0.1rem;
+                    }
+                }
+            }
+            .careful-chose-inner{
+                padding: 0.05rem;
+            }
+        }
+    }
+    .layout-image{
+        padding: 0.16rem 0.14rem;
+        .layout-image-item{
+            width: 100%;
+            height:1.34rem;
+            margin-bottom: 0.16rem;
+        }
+    }
+
+
 }

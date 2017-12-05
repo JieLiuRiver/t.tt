@@ -28,7 +28,7 @@
  footer, header, menu, nav, section{
    display: block;
  }
- 
+ img{border:0 !important;}
  body{
    line-height: 1;
 }
