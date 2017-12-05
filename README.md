@@ -1,9 +1,9 @@
 >  本项目是基于vue2项目，vue2 +vue-router2 + es6 +webpack 仿锤子科技移动端WebApp
 
-###首先
-
 ***
->  * demo地址 [demo]https://stupidwall.github.io/works/t.tt/) （请用chrome的手机模式预览）
+
+>  * demo地址 [demo](https://stupidwall.github.io/works/t.tt/) （请用chrome的手机模式预览）
+
 >  *本项目地址[github地址](https://github.com/stupidWall/t.tt)
 >  * 手机扫一扫
 
@@ -49,7 +49,7 @@
 
 
 
-###安装
+### 安装
 ***
 项目地址：（`git clone`）
 ```shell
@@ -71,5 +71,5 @@ npm run dev
 npm run build
 ```
 
-## 页面数据
+### 页面数据
 没有异步获取，直接存在bus.js文件中，没有使用vuex，使用中央事件派发bus代替
