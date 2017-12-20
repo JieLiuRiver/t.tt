@@ -8,7 +8,7 @@
 >  * 手机扫一扫
 
 
-![1512439893.png](https://github.com/stupidWall/t.tt/blob/master/static/screenshot/1512439893.png?raw=true)
+![1512439893.png](http://osbfr39w7.bkt.clouddn.com/t_ttcode.png)
 
 
 
